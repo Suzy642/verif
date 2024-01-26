@@ -1,0 +1,305 @@
+body {
+    margin-top: 160px;
+    background-image: url(icons/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.head {
+    display: flex;
+    flex: 200px 1 200px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9;
+    margin-top: -30px;
+    margin-bottom: -470px;
+    background-color:  rgb(20, 19, 19);
+}
+.amazon {
+    width: 160px;
+    margin-left: 20px;
+}
+.second {
+    justify-content: center;
+    align-items: center;
+}
+select {
+    height: 47px;
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: -6px;
+    cursor: pointer;
+}
+.search {
+    margin-right: -50px;
+    height: 41px;
+    width: 470px;
+    vertical-align: top;
+}
+.search-button {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    margin-right: -55px;
+    cursor: pointer;
+    padding-top: 5px;
+    vertical-align: top;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    background-color: orange;
+}
+.search-icon {
+    width: 50px;
+    mix-blend-mode: multiply;
+}
+.back {
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+.second-head {
+        display: flex;
+        flex: 500px 100px 1 100px;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        top: 90px;
+        left: 0px;
+        right: 0px;
+        z-index: 10;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        background-color:  rgb(20, 19, 19);
+    }
+}
+.part1 {
+    margin-left: 80px;
+}
+.location {
+    position: relative;
+    top: 10px;
+    width: 20px;
+}
+.deliver {
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.part2 {
+    margin-left: 0px;
+}
+.drop1 {
+    color: white;
+    background-color:  rgb(20, 19, 19);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-top: -2px;
+    padding-top: -10px;
+}
+.drop2 {
+    color: gray;
+    background-color:  rgb(20, 19, 19);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part3 {
+    margin-left: 0px;
+}
+.hello {
+    color: gray;
+    background-color:  rgb(20, 19, 19);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -50px;
+    font-size: 12px;
+}
+.cart {
+    width: 50px;
+    mix-blend-mode: color;
+    position: relative;
+}
+.cart-amount {
+    color: orange;
+    position: absolute;
+    top: 0px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.top-container {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    margin-right: 780px;
+    margin-left: 300px;
+}
+@media (min-width: 300px) {
+    .top-container {
+        width: 30%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 70px;
+        margin-bottom: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+.access {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.you {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 90px;
+    margin-top: -2px; 
+}
+.billing {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+.billing2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 110px;
+    margin-top: -2px; 
+}
+.line-stage {
+    display: flex;
+    flex: 100px 100px 100px 100px;
+    margin-bottom: 20px;
+}
+.lining {
+    color: orange;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 50px;
+}
+.lining2 {
+    color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 50px;
+}
+.name {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+    color: gray;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.details {
+    width: 290px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.straight-line {
+    color: lightgray;
+    margin-top: 10px;
+}
+.or {
+    color: gray;
+}
+.continue {
+    margin-left: 5px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;        
+    width: 333px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.continue:hover {
+    opacity: 0.8;
+}
+.continue:active {
+    opacity: 0.4;
+}
+.cancel {
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;        
+    width: 333px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.back-container {
+    margin-top: 50px;
+    background-color: rgb(20, 19, 19);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.back-to-top {
+    color: white;
+    margin-left: 570px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.footer {
+    display: flex;
+    flex: 300px 300px 300px 300px;
+    background-color: black;
+    justify-content: space-between;
+    margin-top: 95px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    z-index: 4;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+.h1 {
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+}
+.write {
+    color: gray;
+}
+.last {
+    background-color: black;
+    margin-top: 300px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+.last-logo {
+    width: 100px;
+    margin-left: 550px;
+}

@@ -1,0 +1,106 @@
+body {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amazon-logo {
+    margin-left: 500px;
+}
+.amazon-icon {
+    width: 140px;
+}
+.signin-container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 200px;
+    padding-right: 10px;
+    padding-left: -25px; 
+}
+@media (min-width: 300px) {
+    .signin-container {
+        width: 50%;
+    }
+}
+.signin {
+    font-size: 25px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.email-label {
+    margin-left: 100px;
+}
+.put-email {
+    width: 340px;
+    height: 30px;
+    margin-left: 100px;
+}
+.continue {
+    margin-left: 100px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    width: 345px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.continue:hover {
+    opacity: 0.8;
+}
+.continue:active {
+    opacity: 0.4;
+}
+.need {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.need-help {
+    text-decoration: none;
+    color: rgb(0, 81, 255); 
+} 
+.new-amazon {
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 12px;
+    justify-content: center;
+}
+.line {
+    color: gray;
+    justify-content: center;
+}
+.to-amazon {
+    color: gray;
+    font-size: 12px;
+    justify-content: center;
+}
+.create {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 320px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.conditions {
+    display: grid;
+    grid-template-columns: 150px 120px 80px;
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.conditions-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+.last {
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+    margin-left: 390px;
+    margin-bottom: 40px;
+}
